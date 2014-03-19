@@ -1,0 +1,25 @@
+{
+  "name": "node-bone",
+  "version": "0.0.0",
+  "description": "node-bone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "test":"mocha"
+  },
+  "keywords": [
+    "bone",
+    "start"
+  ],
+  "author": "neychang",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "koa": "~0.5.1",
+    "koa-static": "~1.4.3",
+    "koa-router": "~3.1.2",
+    "request": "~2.34.0"
+  },
+  "engines": {
+    "node": "0.11.9"
+  }
+}
