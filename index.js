@@ -13,8 +13,9 @@ var Model = {
     		    Model.data = '';
 		        Model.data = JSON.parse(body);
     	    }
-   	});
-   	return Model.data;
+   	    });
+   	    return Model.data;
+    }
 } 
 
 app.use(router(app));
