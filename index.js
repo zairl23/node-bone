@@ -22,15 +22,11 @@ app.use(router(app));
 // server static file
 app.use(serve('.'));
 //app.use('/', )
-app.get('/web', function *(next) {
+app.get('/', function *(next) {
   //var user = yield User.findOne(this.params.id);
-  this.body = 'hello';
+  this.body = 'hello, welcome to node-bone';
 });
-app.get('/web/1', function *(next) {
-  //var user = yield User.findOne(this.params.id);
-  this.body = 'hello';
-  //app.use(serve('index.html'));
-});
+
 // route about Model
 app.get('/model/all', function *(next) {
     this.body = Model.all();
