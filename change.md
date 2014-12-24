@@ -2,7 +2,8 @@
 -----------------------------------------------
 1.  add nodemon to debug codes
 
-1.  add     
+1.  add
+
 	"koa-mongo": "~0.2.0",
     	"co-monk": "~1.0.0",
    	 "monk": "~0.9.1",
